@@ -1,1 +1,3 @@
 # Regression-model-for-OOV-words-prediction
+This repository contains Regression model for our upcoming paper "Automatic Generation of Vocabulary Lists". 
+The Code folder has two parts. The Evaluation part contains codes to evaluate a vocabulary list in terms of study time and text comprehension metrics introduced in our paper. The evaluate.py contains a function that outputs the results based on graduation level and text comprehension parameters for different vocabulary levels (See evaluate.py for detailed instructions). The second part contains codes to automatically generate various vocabulary lists with MWEs based on the type of automatic MWEs, dispersion, and compositionality (See generate_list.py for detailed instructions).  
