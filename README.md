@@ -1,5 +1,5 @@
 # Regression-model-for-OOV-words-prediction
-This repository contains a deep learning regression model that tackles the OOV (out of vocabulary) problem for automatically generated vocabulary lists from specific corpora. Gold score for the regression model is a log probability of each word in the vocabulary list in training corpora and features are fasttext embeddings and frequency in SUBTLEX. The updated list outperforms the initial list by 10% according to the time comprehension metric built by John&Uvaliyev that can be accessed from here [https://aclanthology.org/2023.mwe-1.12/]. 
+This repository contains a deep learning regression model that tackles the OOV (out of vocabulary) problem for automatically generated vocabulary lists from specific corpora. Gold score for the regression model is a log probability of each word in the vocabulary list in training corpora and features are fasttext embeddings and frequency in SUBTLEX [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010729 ]. The updated list outperforms the initial list by 10% according to the time comprehension metric built by John&Uvaliyev that can be accessed from here [https://aclanthology.org/2023.mwe-1.12/]. 
 
 ## Before your start
 1. Download the fasttext embeddings from https://fasttext.cc/ and put it in a folder where the code is located
