@@ -1,4 +1,4 @@
-# Regression-model-for-OOV-words-prediction
+# OOV-words-prediction
 This repository contains a deep learning regression model that tackles the OOV (out of vocabulary) problem for automatically generated vocabulary lists from specific corpora. Gold score for the regression model is a log probability of each word in the vocabulary list in training corpora and features are fasttext embeddings and frequency in SUBTLEX [1]. The updated list outperforms the initial list by 10% according to the time comprehension metric built by John&Uvaliyev [2] 
 
 ## Before your start
